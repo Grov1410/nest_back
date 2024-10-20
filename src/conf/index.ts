@@ -8,5 +8,7 @@ export default () => (
     db_user: process.env.DATABASE_USER,
     db_password: process.env.DATABASE_PASSWORD,
     db_name: process.env.DATABASE_NAME,
+    secret_jwt: process.env.SECRET_JWT,
+    expire_jwt: process.env.EXPIRE_JWT,
   }
 )
